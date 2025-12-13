@@ -1,3 +1,40 @@
-body{
+/* body{
     background-color: black;
+} */
+/* html bookmark */
+html{
+    croll-behavior:smooth;
+}
+/* Link colors */
+a:hover{
+    color:blueviolet;
+    font-weight:bold;
+    text-decoration: none;
+}
+
+a:visited{
+    color:darkblue;
+}
+a:active{
+    color:brown;
+}
+/* html table */
+table{
+    width:50%;
+    margin:50px auto;
+}
+table,
+th,
+td{
+    border:1px solid black;
+    border-collapse:collapse;
+}
+/* uncontrol list */
+ul{
+    list-style-type:circle;
+}
+/* class attribute */
+.para{
+    text-align:center;
+    font-size: 37px;
 }
