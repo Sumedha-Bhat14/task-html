@@ -38,3 +38,9 @@ ul{
     text-align:center;
     font-size: 37px;
 }
+/* Media Query */
+@media (max-width: 540px) {
+    table{
+        width:90%;
+    }
+}
