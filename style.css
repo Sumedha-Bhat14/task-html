@@ -2,11 +2,11 @@
     background-color: black;
 } */
 /* html bookmark */
-html{
+/* html{
     croll-behavior:smooth;
-}
+}  */
 /* Link colors */
-a:hover{
+/* a:hover{
     color:blueviolet;
     font-weight:bold;
     text-decoration: none;
@@ -19,7 +19,7 @@ a:active{
     color:brown;
 }
 /* html table */
-table{
+/* table{
     width:50%;
     margin:50px auto;
 }
@@ -30,17 +30,44 @@ td{
     border-collapse:collapse;
 }
 /* uncontrol list */
-ul{
+/* ul{
     list-style-type:circle;
-}
+} */
 /* class attribute */
-.para{
-    text-align:center;
+/* .para{ */
+    /* text-align:center;
     font-size: 37px;
-}
+} */ 
 /* Media Query */
-@media (max-width: 540px) {
+/* @media (max-width: 540px) {
     table{
         width:90%;
     }
+}  */
+
+.task {
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif;
+    font-size: 5rem;
+    font-weight: 500;
 }
+
+/* .task::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 20% 80%, rgba(255, 255, 255, 0.1) 0%, 
+    transparent 50%), radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.1) 0%, 
+    transparent 50%);
+} */
+
+body{
+    background:radial-gradient(circle at 20% 80%, rgba(255, 255, 255, 0.1) 0%, 
+    transparent 50%), radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.1) 0%, 
+    transparent 50%);
+}
+
+/*  */
+
