@@ -45,11 +45,7 @@ td{
     }
 }  */
 
-.task {
-    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif;
-    font-size: 5rem;
-    font-weight: 500;
-}
+
 
 /* .task::after {
     content: '';
