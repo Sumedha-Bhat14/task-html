@@ -17,68 +17,68 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+
         }
 
         .btn-explore {
             display: flex;
             justify-content: center;
-            align-items: center; 
+            align-items: center;
+            color: aqua;
         }
 
         .center {
             text-align: center;
-            color: rgb(166, 20, 20);
+            color: rgb(206, 16, 16);
             gap: flex;
         }
 
-        .h2 {
+        /* .h2 {
             text-align: center;
-            color: black;
-        }
-
-        h3,
-        p,
-        p,
-        p {
-            text-decoration-color: blue;
-
-        }
-   .form-group{
-         display:flex;
+            
+            
+        } */
+        /* 
+        .form-group{
+            display: flex;
             justify-content: center;
-            align-items: center; 
-   }
+            align-items: center;
+    
 
+        } */
     </style>
+
 </head>
 
 
 <body style="overflow: auto;">
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav items">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
+        <div class="sticky-top">...</div>
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav items">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
         </div>
+        </div>
+
+
     </nav>
 
 
@@ -108,12 +108,34 @@
 
     <!-- About Section -->
     <style>
-        .portfolio,
-        .contact {
-            background-color:azure;
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
         }
-       
+
+        body {
+            background-color: rgb(167, 97, 224);
+        }
+
+        .container {
+            background-color: rgb(19, 54, 158);
+        }
+
+
+
+        .form-group,
+        .button-center {
+            display: flex;
+
+            gap: 20px;
+            text-align: center;
+            justify-content: center;
+        }
     </style>
+
 
 
 
@@ -147,42 +169,47 @@
                     </div><br>
     </section><br> -->
     <section>
-        <div>
-            <h1 class="center">About</h1><br>
+        <div class="about-content">
+            <h1 class="center">About Me</h1><br>
         </div>
         <div class="about-image-content">
             <div> <img src="assets/aboutme.jpg" class="thumbnail"></div>
             <div>
-                <p>Passionate about creating meaningful digital experiences
-                    With over 5 years of experience in digital design, I specialize in creating user-centered solutions
-                    that bridge the gap between functionalityand aesthetics. 
+                <h1>Passionate about creating meaningful digital experiences</h1><br>
+                <p>With over 5 years of experience in digital design, I specialize in creating user-centered solutions
+                    that bridge the gap between functionalityand aesthetics.
                     My approach combines strategic thinking
-                    with creative execution to deliver impactful results.
+                    with creative execution to deliver impactful results.</p>
 
-                    I believe that great design is not just about how it looks, but how it works and how it makes people
+                <p> I believe that great design is not just about how it looks, but how it works and how it makes people
                     feel. Every project is an opportunity to solve problems and create connections that matter.</p>
-                    <!-- box section -->
-                
-                    <div class="d-flex flexrow">
-                        <div class="row align-item-start">
-                            <div class="col">
-                               
-                               <div>
+
+                <p>When I'm not designing, you'll find me exploring new technologies, sketching ideas, or seeking</p>
+                <br>
+
+                <div class="d-flex flexrow">
+                    <div class="row align-item-start">
+                        <div class="col">
+
+                            <div>
                                 <div class="flex">
-                   <h1 class="skill-tag"> UI/UX Design </h1>
-                     <h1 class="skill-tag"> Web Development </h1>
-                     <h1 class="skill-tag"> Brand Identity </h1></div>
-                     </div>
-                     <div class="flex">
-                         <h1 class="skill-tag"> Motion Graphics </h1>
-                     <h1 class="skill-tag"> Prototyping </h1>
-                     <h1 class="skill-tag"> Design system </h1></div>
-                   
-        </div>
-    </section> 
+                                    <h1 class="skill-tag"> UI/UX Design </h1>
+                                    <h1 class="skill-tag"> Web Development </h1>
+                                    <h1 class="skill-tag"> Brand Identity </h1>
+                                </div>
+                            </div>
+                            <div class="flex">
+                                <h1 class="skill-tag"> Motion Graphics </h1>
+                                <h1 class="skill-tag"> Prototyping </h1>
+                                <h1 class="skill-tag"> Design system </h1>
+                            </div>
+
+                        </div>
+    </section> <br>
 
     <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio">
+
+    <!-- <section id="portfolio" class="portfolio">
         <div class="container">
             <h2 class="section-title fade-in">Featured Work</h2><br>
             <div class="portfolio-grid">
@@ -278,10 +305,65 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <!-- Contact sectio -->
-    <section id="contact" class="contact"></section>
+    <section>
+        <div class="portfolio-image">
+            <h1 class="center"> Featured Work </h1><br>
+        </div>
+        <div class="cards">
+            <div>
+
+                <img src="assets/working-business-women2.jpg" class="img-thumbnail">
+                <h3>E-commerce Platform</h3>
+                <p>A modern, responsive e-commerce solution with focus on user experience and conversion
+                    optimization. Built with scalability and performance in mind</p>
+            </div>
+            <div>
+                <img src="assets/computer-desk-stickers1.jpg" class="img-thumbnail">
+                <h3>Brand Identity System</h3>
+                <p>Complete visual identity redesign for a tech startup, including logo, guidelines, and digital
+                    assets. Creating a cohesive brand experience across all touchpoints.</p>
+            </div>
+            <div>
+                <img src="assets/curved-display-pinky-girl2.jpg" class="img-thumbnail">
+                <h3>Mobile App Design</h3>
+                <p>Intuitive mobile app interface for a fitness tracking application with focus on accessibility
+                    and user engagement through gamification.</p>
+            </div>
+            <div>
+                <img src="assets/dashboard-interfaces-transparent-displays.jpg" class="img-thumbnail">
+                <h3>Dashboard Interface</h3>
+                <p>Clean and functional dashboard design for data analytics platform with complex information
+                    architecture and real-time data visualization</p>
+            </div>
+            <div>
+                <img src="assets/marketing-strategy-women1.jpg" class="img-thumbnail">
+                <h3>Marketing Website</h3>
+                <p>Modern marketing website with interactive animations and optimized conversion funnels. Built
+                    for maximum performance and SEO.</p>
+            </div>
+            <div>
+                <img src="assets/portfolio-website-girl1.jpg" class="img-thumbnail">
+                <h3>Creative Portfolio</h3>
+                <p>Artistic portfolio website featuring immersive galleries, smooth transitions, and creative
+                    storytelling for a digital artist.</p>
+            </div>
+        </div>
+    </section> <br>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Contact section -->
+    <!-- <section id="contact" class="contact"></section>
     <div class="container">
         <div class="contact-content">
             <h2 class="section-title fade-in">Let's Work Together</h2>
@@ -311,24 +393,98 @@
             </form>
         </div>
     </div>
-    </section>
+    </section> -->
 
-    <!-- Footer -->
-    <footer class="footer">
+
+
+    <section>
+        <div>
+            <h1 class="center"> Let's Work Together </h1><br>
+        </div>
+        <div class="contact"></div>
+        <p class="center">Ready to bring your vision to life? Let's discuss how we can create something amazing together
+            <br> I'm
+            always excited to take on new challenges and collaborate on innovative projects.</p><br>
+        <form class="contact-form fade-in">
+            <!-- <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your full name" required="">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="your.email@example.com" required="">
+                    </div>
+                </div> -->
+            <section>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col">
+                            <label for="inputName4" class="form-label">Name</label>
+                            <input type="text" class="form-control" placeholder="Name" aria-label="Name">
+                        </div>
+                        <div class="col">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="text" class="form-control" placeholder="Email" aria-label="Email">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="What's this about?" required="">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" placeholder="Tell me about your project..."
+                        required=""></textarea>
+                </div>
+                <div class="button-center">
+                    <button type="submit" class="btn btn-danger">Send Message</button>
+        </form>
+        </div>
+        </div>
+        </div>
+    </section>
+    <br>
+
+
+
+    <!-- footer section -->
+    <!-- <footer>
+     <footer class="footer">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-left">
                     <p>© 2025 Personal Shape. All rights reserved.</p>
                 </div>
                 <div class="footer-right">
-                    <a href="#privacy">Privacy Policy</a>
-                    <a href="#terms">Terms of Use</a>
-                    <a href="#sitemap">Sitemap</a>
-                    <a href="https://templatemo.com" target="_blank" rel="noopener nofollow">Provided by TemplateMo</a>
+                    <a href="#privacy"> Privacy Policy </a>
+                    <a href="#terms"> Terms of Use </a>
+                    <a href="#sitemap"> Sitemap </a>
+                    <a href="https://templatemo.com" target="_blank" rel="noopener nofollow"> Provided by TemplateMo </a>
+                </div>
+            </div>
+        </div>
+    </footer>  -->
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <p>© 2025 Personal Shape. All rights reserved.</p>
+                </div>
+                <div class="footer-right">
+                    <a href="#privacy"> Privacy Policy </a>
+                    <a href="#terms"> Terms of Use </a>
+                    <a href="#sitemap"> Sitemap </a>
+                    <a href="https://templatemo.com" target="_blank" rel="noopener nofollow"> Provided by TemplateMo
+                    </a>
                 </div>
             </div>
         </div>
     </footer>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
@@ -337,4 +493,4 @@
 
 </body>
 
-</html> 
+</html>

@@ -1,0 +1,181 @@
+/* task {
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif;
+    font-size: 5rem;
+    font-weight: 500;
+} */
+
+/* .task::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 20% 80%, rgba(255, 255, 255, 0.1) 0%, 
+    transparent 50%), radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.1) 0%, 
+    transparent 50%);
+} */
+
+/* body{
+    background:radial-gradient(circle at 20% 80%, rgba(255, 255, 255, 0.1) 0%, 
+    transparent 50%), radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.1) 0%, 
+    transparent 50%);
+} */
+/* html, body {
+ margin: 60 px;
+ padding: 0;
+} */
+/* .header,.hero-content,center{
+    background-color:rgb(170, 50, 226);
+} */
+
+/*  */
+html{
+    scroll-indicator:smooth;
+}
+/* .container {
+    max-width: 1500 px;
+    margin: 0 auto;
+    padding: 0 2rem;
+} */
+
+.skill-tag {
+    display: flex;
+    flex-direction: column;
+    
+    padding: 0.75rem 1.5rem;
+    background:white;
+    border-radius: 40px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border: 1px solid rgba(206, 36, 36, 0.83);
+    backdrop-filter:blur(10px);
+}
+
+.about-image-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+/* .skills {
+gap:7px;
+    display:flex;
+    gap:1em;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 30px;
+} */
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: block;
+}
+
+.cta-button{
+    display: inline-block;
+    padding:19.2px 48px;
+    text-align: center;
+    
+}
+.hero-content {
+    text-align: center;
+   
+}
+    .about-content {
+        display: grid;
+}
+
+.about-image:before {
+    opacity: 0.7;
+}
+.about-image:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+/* .about{
+   
+    margin-top: 2rem;
+    gap:rem;
+    align-items:center; 
+    position:relative;
+    display:flex;
+ 
+} */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+/* .aboout-text{
+    text-align: left;
+} */
+
+
+.skill-tag{
+    display:flex;
+    background-color:whitesmoke;
+    gap:15px;
+   
+}
+
+   .container, 
+   .about-image-content,
+   .about-content
+   {
+    background-color:white;
+   }
+
+   
+   
+
+   .flex{
+    width: 80px;
+    height: 70px;
+    border: 2px;
+  display: flex;
+    flex-direction:column;
+    display : grid;
+  grid-template-columns: repeat(3, 2fr);
+   gap:20px;
+    
+   }
+
+   /* .portfolio-image{
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 20px;
+   }  */
+    .cards{
+     display: flex;
+     flex-direction: row;
+     grid-template-columns: repeat(3, 2fr);
+     display: grid;
+     gap: 20px;
+    }
+
+
+.cards,.img,.h1,.p,.portfolio-image{
+    background-color:whitesmoke;
+
+}
+
+/* .form-group{
+    display: flex;
+     flex-direction: row;
+     grid-template-columns: repeat(3, 2fr);
+     display: grid;
+       justify-content: center;
+} */
+
+
+
