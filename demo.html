@@ -1,13 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <p id="demo"></p>
+<!-- // replace method -->
+    <!-- <button onclick="replaceText()"> Replace </button> -->
+    <p id="demo"> hyy im from Accelerlab </p>
     <script>
+        //map method  (Array Method) 
+        // let a=[10,20,30,40,50]
+        // a.map((item)=>console.log(item*item))
+        
+        //Exception Handling (try catch)
+        // try{
+        //     alert("Hello world")
+        // }catch(error){
+        //     console.log(error);
+        // }
+        // try{
+        //     allert("Hello world")
+        // }catch(error){
+        //     console.log(error);
+        // }
+
+        
+        // function replaceText() {
+        //     let text=document.getElementById("demo").innerHTML;
+        //     document.getElementById("demo").innerHTML=text.replace("Accelerlab","ACCELERLAB SOLUTION PVT LTD");
+        // }
+
         // let x="accelerlab"
         // document.getElementById("demo").innerHTML=x;
 
@@ -15,23 +41,23 @@
         // let y=5;
         // document.getElementById("demo").innerHTML=(x==y);
 
-            // let y="40";
-            // let x=50;
-            // document.getElementById("demo").innerHTML=(y===x);
+        // let y="40";
+        // let x=50;
+        // document.getElementById("demo").innerHTML=(y===x);
 
-            // Numbers
-            // let length=16;
-            // let weight=7.5;
+        // Numbers
+        // let length=16;
+        // let weight=7.5;
 
-            //String
-            // let color="black";
-            // let lastname="jas";
+        //String
+        // let color="black";
+        // let lastname="jas";
 
-            //Booleans
-            // let x=True;
-            // let y=False;
+        //Booleans
+        // let x=True;
+        // let y=False;
 
-            //object
+        //object
         // const person={firstname:"jhon", lastname:"doe"}
 
         //Array Object
@@ -42,8 +68,8 @@
 
         //function syntax
         // function myFunction(parameter1, parameter2){
-            //code 
-            //ex
+        //code 
+        //ex
         // function myFunction(a,b){   //definition with parameter
         // return a + b
         // }
@@ -68,10 +94,10 @@
         // document.getElementById("demo").innerHTML=array.join("*")
 
         //Array Pop   //remove
-            // let array=["apple","banana","grapes"]
-            // console.log(array);
-            // console.log(array.pop())
-            // console.log(array);
+        // let array=["apple","banana","grapes"]
+        // console.log(array);
+        // console.log(array.pop())
+        // console.log(array);
 
         //Array Push  //add
         // let array=["apple","banana","grapes"]
@@ -79,9 +105,136 @@
         // console.log(array.push("mango"))
         //     console.log(array)
 
+        //conditional Statement.    (if,else)
+        // let x=5
+        // if(x>10) {
+        //     console.log("yes");
+        // }else{
+        //     console.log("no");
+        // }
 
+        //elseif
+        // let x=5
+        // if (x > 10) {
+        //     console.log("yes");
+        // }else if (x==5) {
+        //     console.log("x is 5")
+        // }else{
+        //     console.log("no");
+        // }
 
+        //date
+        // let time=new Date().getHours()
+        // let greeting;
+        // if (time<10){
+        //    greeting="Good Morning";
+        // }else if(time<20){
+        //      greeting="Good Day";
+        // }else{
+        //      greeting="Good Evening";
+        // }
+        // console.log(greeting);
 
+        //Switch Statement
+        // switch(expresssion){
+        //     case x:
+        //         //code to execute
+        //         break;
+        //     case y:
+        //         //code to execute
+        //         break;
+        //     deafult:
+        //     //code block
+        // }
+
+        //Switch
+        // let day;
+        // switch (new Date().getDay()) {
+        //     case 0:
+        //         day = "Sunday";
+        //         break;
+        //     case 1:
+        //         day = "Monday";
+        //         break;
+        //     case 2:
+        //         day = "Tuesday";
+        //         break;
+        //     case 3:
+        //         day = "Wednesday";
+        //         break;
+        //     case 4:
+        //         day = "Thursday";
+        //         break;
+        //     case 5:
+        //         day = "Friday";
+        //         break;
+        //     case 6:
+        //         day = "Saturday";
+        //         break;
+        // }
+        // document.getElementById("demo").innerHTMl = day;
+        // console.log(day);
+
+        //default
+    // switch(new Date().getDay()){
+    //     case 6:
+    //         text="Today is Saturday";
+    //         break;
+    //     case 0:
+    //         text="Today is Sunday";
+    //         break;
+    //     default:
+    //         text="looking forwward to weekend";
+    // }
+
+    // let a=10;
+    // let b=56;
+    // if(a>b) {
+    //     console.log("yes");
+    // }else (a<b)
+    //  console.log("No");
+  
+//String Method (search)
+// let text="hello world";
+// console.log(text);
+// console.log(text.search("world"));
+
+// Emascript function
+        // function myfunction(x,y){
+        //     console.log(x*y);
+        // }
+
+//arrow function
+            // const myFunction=(x,y)=>{
+            //     console.log(x*y);
+            // };
+
+        //ES6 Destructuring
+    //Array D
+        // const numbers=[1,2,3,4];
+        // const[first,second,third,fourth]=numbers;
+        // console.log(first,second,third,fourth)
+    //Objectt D
+        // const person={firstname:"Jhon",lastname:"Don",age:45}
+        // const{firstname,lastname,age}=person;
+        // console.log(firstname,lastname,age);
+
+    //Spread Operator
+    // const numbersOne=[1,2,3];
+    // const numbersTwo=[4,5,6];
+    // const numberscombined=[...numbersOne,...numbersTwo];
+    // console.log(numbersOne,numbersTwo)
+
+        // const numbers=[1,2,3,4,5,6];
+        // const[one,two,...rest]=numbers;
+        // console.log(one,two,rest);
+
+    //Ternary Operator
+        // let x=6;
+        // x==5? console.log("yes") : console.log("no");
+
+    
     </script>
 </body>
+
 </html>
